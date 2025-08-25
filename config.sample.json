@@ -1,0 +1,14 @@
+{
+    "comments": "A copy trading setup",
+    "secret_key": "YourHyperliquidPrivateKeyGoesHereWithout0xPrefix",
+    "account_address": "0xYourHyperliquidAccountAddessGoesHere",
+    "copy_address": "0x5c9c9ab381c841530464ef9ee402568f84c3b676", 
+    "coins": {"BTC": 1.0},
+    "disable_alo_engine": true,
+    "disable_ioc_engine": false
+}
+
+
+
+
+
