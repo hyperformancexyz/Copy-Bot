@@ -1,4 +1,5 @@
 # Copy-Bot
+<img width="2048" height="889" alt="image" src="https://github.com/user-attachments/assets/0d67c270-a264-4d33-85a0-26f89b03bfd1" />
 
 **Copy-Bot** is a copy trading bot for [Hyperliquid](https://hyperliquid.xyz).  
 It mirrors trades from a *copy account* into a *paste account* in real time and includes a terminal UI for monitoring.
@@ -42,17 +43,11 @@ Create a `config.json` (or copy from `config.sample.json`):
   "disable_ioc_engine": false
 }
 ```
-secret_key – private key for the paste account (omit 0x).
-account_address – paste account (where trades are mirrored).
-copy_address – source account to copy.
-coins – map of coin symbols to virtual leverage (risk multiplier) factors.
-disable_alo_engine / disable_ioc_engine – toggle specific engines.
-
 ## Usage
 
 Run the bot:
 
-./main -c config.json
+`go run main.go -c config.json`
 
 
 The TUI shows:
